@@ -13,6 +13,7 @@
 		99C0F1BA1F420DB5005E413F /* Basic_Storyboard_Tutorial.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 99C0F1B81F420DB5005E413F /* Basic_Storyboard_Tutorial.xcdatamodeld */; };
 		99C0F1BC1F420DB5005E413F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C0F1BB1F420DB5005E413F /* Assets.xcassets */; };
 		99C0F1BF1F420DB5005E413F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99C0F1BD1F420DB5005E413F /* LaunchScreen.storyboard */; };
+		99C0F1C71F421041005E413F /* drawing.svg in Resources */ = {isa = PBXBuildFile; fileRef = 99C0F1C61F421041005E413F /* drawing.svg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		99C0F1BB1F420DB5005E413F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99C0F1BE1F420DB5005E413F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99C0F1C01F420DB5005E413F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99C0F1C61F421041005E413F /* drawing.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = drawing.svg; path = ../../../../../Desktop/drawing.svg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				99C0F1BB1F420DB5005E413F /* Assets.xcassets */,
 				99C0F1BD1F420DB5005E413F /* LaunchScreen.storyboard */,
 				99C0F1C01F420DB5005E413F /* Info.plist */,
+				99C0F1C61F421041005E413F /* drawing.svg */,
 				99C0F1B81F420DB5005E413F /* Basic_Storyboard_Tutorial.xcdatamodeld */,
 			);
 			path = "Basic Storyboard Tutorial";
@@ -127,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99C0F1BF1F420DB5005E413F /* LaunchScreen.storyboard in Resources */,
+				99C0F1C71F421041005E413F /* drawing.svg in Resources */,
 				99C0F1BC1F420DB5005E413F /* Assets.xcassets in Resources */,
 				99C0F1B71F420DB5005E413F /* Main.storyboard in Resources */,
 			);
@@ -271,6 +275,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.novinia.Basic-Storyboard-Tutorial";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -283,6 +288,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.novinia.Basic-Storyboard-Tutorial";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
